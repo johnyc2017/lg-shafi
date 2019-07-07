@@ -33,7 +33,6 @@ public class ShoppingCartSummary_PO extends BasePage {
 
 	String DressesTab = "/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[6]/ul[1]/li[2]/a[1]";
 	String ClickDress1 = ".//*[@id='block_top_menu']/ul/li[2]/a";
-	//String AddToCart = "/html[1]/body[1]/div[1]/div[1]/div[3]/form[1]/div[1]/div[3]/div[1]/p[1]/button[1]/span[1]";
 	String ContinueShopping = "//span[contains(text(),'Proceed to checkout')]";
 	String ShoppingCartIcon = "//div[@class='shopping_cart']/a[1]";
 	
@@ -75,7 +74,7 @@ public class ShoppingCartSummary_PO extends BasePage {
 
 
 	
-	@Step("Click on Shopping Cart Icon")  
+	@Step("Click to Add all 5 products")  
 	public void AddProducts() {
 	        WebElement element = driver.findElement(By.xpath("//span[@class='cross']"));
 	        List<WebElement> lists = driver.findElements(By.xpath("//li//span[contains(text(),'Add to cart')]"));
