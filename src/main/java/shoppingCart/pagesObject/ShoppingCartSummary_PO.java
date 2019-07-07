@@ -89,18 +89,6 @@ public class ShoppingCartSummary_PO extends BasePage {
 	            }
 	        }
 	  }
-	
-	@Step("Click on Shopping Cart Icon")
-	public void ShoppingCartIcon() throws InterruptedException {
-		WebElement element = driver.findElement(By.xpath("ShoppingCartIcon"));
-		scrollToElement(element);
-		try {
-			click(By.xpath(ShoppingCartIcon));
-		} catch (Exception e) {
-
-			fail.failTest("Unable to Proceed to Checkout");
-		}
-	}
 
 
 	@Step("Verify total price")
