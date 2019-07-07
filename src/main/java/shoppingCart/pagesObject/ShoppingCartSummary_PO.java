@@ -1,4 +1,4 @@
-package lookingGlass.pagesObject;
+package shoppingCart.pagesObject;
 
 import Utility_PO.FailTest;
 import Utility_PO.Logger;
