@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Practice Test Suite" duration-ms="35587" started-at="2019-07-07T13:05:59Z" finished-at="2019-07-07T13:06:35Z">
+    <groups>
+    </groups>
+    <test name="Looking Glass Practice Automation Test" duration-ms="35587" started-at="2019-07-07T13:05:59Z" finished-at="2019-07-07T13:06:35Z">
+      <class name="shoppingCart.test.ShoppingCartSummaryTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:shoppingCart.test.ShoppingCartSummaryTest@12468a38]" name="initializeTestBaseSetup" is-config="true" duration-ms="5666" started-at="2019-07-07T13:05:59Z" finished-at="2019-07-07T13:06:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php?controller=authentication]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="ShoppingCartSummeryTests()[pri:0, instance:shoppingCart.test.ShoppingCartSummaryTest@12468a38]" name="ShoppingCartSummeryTests" duration-ms="29796" started-at="2019-07-07T13:06:05Z" finished-at="2019-07-07T13:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingCartSummeryTests -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:shoppingCart.test.ShoppingCartSummaryTest@12468a38]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-07-07T13:06:35Z" finished-at="2019-07-07T13:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- shoppingCart.test.ShoppingCartSummaryTest -->
+    </test> <!-- Looking Glass Practice Automation Test -->
+  </suite> <!-- Automation Practice Test Suite -->
+</testng-results>

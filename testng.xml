@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Practice Test Suite" verbose="2">
+	<parameter name="browserType" value="Chrome" />
+	<!-- <parameter name="browserType" value="Firefox" /> -->
+	<parameter name="appURL" value="http://automationpractice.com/index.php?controller=authentication" />		
+	<test thread-count="1" name="Looking Glass Practice Automation Test">
+		
+		<classes>      
+             <class name="shoppingCart.test.ShoppingCartSummaryTest"/>
+ 
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
