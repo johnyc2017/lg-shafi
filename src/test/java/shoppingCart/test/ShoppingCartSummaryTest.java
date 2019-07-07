@@ -63,7 +63,7 @@ public class ShoppingCartSummaryTest extends BasePage {
 					LoginPage loginPage = new LoginPage(driver, wait);
 					loginPage.login(Username, Password);
 
-					shoppingCartSummaryPage.ClickDress();
+					shoppingCartSummaryPage.DressesTab();
 					shoppingCartSummaryPage.ClickListView();
 					shoppingCartSummaryPage.AddProducts();
 					shoppingCartSummaryPage.ContinueShopping();
