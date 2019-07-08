@@ -1,9 +1,7 @@
-# lg-shafi
 automationpractice.com is an end-end e-commerce website. It covers the complete online shopping workflow. 
-So there is lot of back and forth between server and client, lots of validations built into it to give you a complete experience to practice the scenarios 
-you might find in real time projects.
+So there is lot of back and forth between server and client, lots of validations built into it to give you a complete experience to practice the scenarios you might find in real time projects.
 
-Tools:
+Tools and Language Utilized:
 
 • Selenium Web Driver
 
@@ -15,7 +13,7 @@ Tools:
 
 • Allure Reporting Framework
 
-Tested functionalities:
+Tested Functionalities via Automated Scripts:
 
 • Logged in as an existing account
 
