@@ -152,10 +152,16 @@ public class ShoppingCartSummary_PO extends BasePage {
 		}
 	}
 
-	public void ClickListView(){
-		WebElement element = driver.findElement(By.xpath("//a[contains(text(),'List')]"));
-		//scrollToElement(element);
-		element.click();
+		public void ClickListView(){
+		scrollToElement(driver.findElement(By.xpath("//li[@id='list']")));
+		delayFor(2000);
+		try {
+			WebElement element = driver.findElement(By.xpath("//a[contains(text(),'List')]"));
+			element.click();
+		} catch (Exception e) {
+
+			fail.failTest("Unable to Click on List View");
+		}
 	}
 
 	public void VerifyTotalPriceOfEachItem(){
